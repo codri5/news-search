@@ -1,0 +1,52 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.jumbotron {
+    background-color: rgb(29, 29, 93);
+}
+
+.heading {
+    color: white;
+    text-align: center;
+}
+
+.subheading {
+    font-weight: bold;
+}
+
+.search-container {
+    padding-bottom: 20px;
+}
+
+.sub-container {
+    padding: 10px;
+    background-color: rgb(237, 234, 234);
+}
+
+.form-container {
+    border: 1px solid lightgrey;
+    padding: 15px;
+}
+
+.article-container {
+    padding-bottom: 15px;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.footer {
+    border-top: 1px solid lightgrey;
+    text-align: center;
+    padding: 15px;
+    padding-top: 20px;
+}

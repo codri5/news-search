@@ -42,6 +42,11 @@ body {
 .btn:hover {
     background-color: white;
     color: black;
+
+}
+
+.btn:focus {
+    box-shadow: none;
 }
 
 .footer {
@@ -49,4 +54,14 @@ body {
     text-align: center;
     padding: 15px;
     padding-top: 20px;
+}
+
+.article-container {
+    border: 1px solid lightgrey;
+    padding: 15px;
+}
+
+.articleDiv {
+    border-top: 1px solid lightgrey;
+    padding: 10px;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-gb">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,25 +20,18 @@
 
 <body>
   <div class="container">
-
-    <div class="jumbotron">
+    <header class="jumbotron">
       <h1 class="heading"><i class="fa fa-newspaper"></i> New York Times Search</h1>
-    </div>
-
+    </header>
     <div class="search-container">
-
       <div class="sub-container">
-        <h6 class="subheading"><i class="fas fa-search"></i> Search Parameters</h6>
+        <h6 class="subheading"><i class="fa fa-search"></i></i> Search Parameters</h6>
       </div>
-
-    <div class="form-container">
       <form>
-
         <div class="form-group">
           <label>Search Term:</label>
           <input type="text" class="form-control" id="InputSearchTerm">
         </div>
-
         <div class="form-group">
           <label> Number of Records to Retrieve:</label>
           <select class="form-control" id="FormControlSelect">
@@ -47,38 +41,19 @@
             <option>10</option>
           </select>
         </div>
-                   
-        <div class="form-group">
-          <label>Start Year (Optional):</label>
-          <input type="text" class="form-control" id="InputStartYear">
-        </div>
-
-        <div class="form-group">
-          <label>End Year (Optional):</label>
-          <input type="text" class="form-control" id="InputEndYear">
-        </div>
-
         <button type="button" class="btn" id="search-btn"><i class="fas fa-search"></i> Search</button>
         <button type="button" class="btn" id="clear-btn"><i class="fa fa-trash"></i> Clear Results</button>
       </form>
-    </div>
-
     <div class="article-container">
-
       <div class="sub-container">
         <h6 class="subheading"><i class="fa fa-newspaper"></i></i> Top Articles</h6>
       </div>
       <div class="articles"></div>
     </div>
-
-    <footer class="footer">
-      <p>&copy; 2023 - Codrina Pal</p>
-    </footer>
-    
+    <footer class="footer"></footer>
   </div>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/js/script.js"></script>
-
 </body>
+
 </html>

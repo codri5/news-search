@@ -1,13 +1,18 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    margin: 0px;
 }
 
 .jumbotron {
-    background-color: rgb(29, 29, 93);
+    background-color: #3A4F7A;
 }
 
 .heading {
     color: white;
+    font-weight: bold;
     text-align: center;
 }
 
@@ -24,50 +29,36 @@ body {
     background-color: rgb(237, 234, 234);
 }
 
-.form-container {
+form {
     border: 1px solid lightgrey;
     padding: 15px;
 }
 
 .article-container {
     padding-bottom: 15px;
-}
-
-.btn {
-    background-color: white;
-    color: black;
-    border: none;
-}
-
-.btn:hover {
-    background-color: white;
-    color: black;
-
-}
-
-.btn:focus {
-    box-shadow: none;
-}
-
-.footer {
-    margin-top: 20px;
-    border-top: 1px solid lightgrey;
-    text-align: center;
-    padding: 15px;
-    padding-top: 20px;
-    height: 5vh;
-    font-size: 10pt;
-}
-
-.article-container {
     margin-top: 10px;
     border: 1px solid lightgrey;
     padding: 15px;
 }
 
 .articleDiv {
-    border-top: 1px solid lightgrey;
     padding: 10px;
+    border-top: 1px solid lightgrey;
+}
+
+.article-number {
+    font-size: 12px;
+}
+
+.url {
+    font-size: 15px;
+    color: rgb(31, 31, 134);
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    border: none;
 }
 
 a {
@@ -80,20 +71,26 @@ a:hover {
     color:rgb(33, 33, 168)
 }
 
-#InputSearchTerm:focus, #FormControlSelect:focus, #InputStartYear:focus, #InputEndYear:focus {
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+#InputSearchTerm:focus, #FormControlSelect:focus {
     box-shadow: none;
     border: 1px solid grey;
 }
 
-.article-number {
-    font-size: 12px;
-}
-
-.url {
-    font-size: 15px;
-    color: rgb(31, 31, 134);
-}
-
-p {
-    margin: 0px;
+.footer {
+    margin-top: 20px;
+    border-top: 1px solid lightgrey;
+    text-align: center;
+    padding: 15px;
+    padding-top: 20px;
+    height: 5vh;
+    font-size: 10pt;
 }

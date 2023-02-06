@@ -51,6 +51,7 @@ form {
 }
 
 .url {
+    word-break: break-word;
     font-size: 15px;
     color: rgb(31, 31, 134);
 }
@@ -62,6 +63,7 @@ form {
 }
 
 a {
+    display: flex;
     color: black;
     font-size: 25px;
 }

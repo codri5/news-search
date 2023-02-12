@@ -2,7 +2,7 @@
 
 ## Description
 
-An application that allows users to search for New York Times news. This app was built with jQuery and features dynamically updated HTML and CSS.
+An application that allows users to search for New York Times news. This app was built with jQuery and features dynamically updated HTML.
 
 ## Installation
 
